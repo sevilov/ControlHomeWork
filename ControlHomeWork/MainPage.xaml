@@ -39,7 +39,7 @@
         <Button Name="ButtonAddition" Height="50" Width="150" Grid.Row="2" Margin="15,0,0,15" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="20" Click="ButtonAddition_Click">Добавить</Button>
         <Button Name="ButtonDone" Height="50" Width="150" Grid.Row="2" Grid.Column="1" Margin="15 0 0 15"  HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="20" Click="ButtonDone_Click">Выполнено</Button>
         <Button Name="ButtonSearch" Height="50" Width="150" Margin="15 0 0 15" Click="ButtonSearch_Click"  HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="20" Grid.Column="2" Grid.Row="2">Сохранить</Button>
-        <Button Name="ButtonExit" Height="35" Width="auto" Grid.Column="2" Margin="10" FontSize="20" Click="ButtonExit_Click"> Выход</Button>
+        <Button Name="ButtonExit" Height="35" Width="auto" Grid.Column="2" Margin="10" FontSize="20" Click="ButtonExit_Click">Выход</Button>
         
         
         
