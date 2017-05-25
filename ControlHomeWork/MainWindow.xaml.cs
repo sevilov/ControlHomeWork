@@ -12,6 +12,11 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Xml.Serialization;
+using System.IO;
+
+
+
 
 namespace ControlHomeWork
 {
@@ -20,9 +25,23 @@ namespace ControlHomeWork
     /// </summary>
     public partial class MainWindow : Window
     {
+
         public MainWindow()
         {
             InitializeComponent();
+
+            FrameMain.Navigate(new LoginPage());
         }
+
+
+
+      private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+       
     }
+    
+    
 }

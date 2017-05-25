@@ -5,8 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ControlHomeWork"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="Заметки" Height="350" Width="525">
     <Grid>
+        <Frame Name="FrameMain" NavigationUIVisibility="Hidden">
+
+
+        </Frame>
         
     </Grid>
+
 </Window>
+
+
+
+
